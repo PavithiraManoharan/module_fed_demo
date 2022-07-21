@@ -10,7 +10,7 @@ export const APP_ROUTES: Routes = [
       pathMatch: 'full'
     },
     {
-      path: 'flights',
+      path: 'about',
       loadChildren: () =>
           loadRemoteModule({
               remoteName: 'mfe1',
